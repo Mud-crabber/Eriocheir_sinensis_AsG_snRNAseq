@@ -11,7 +11,7 @@ The analytical methodology implemented here adheres to the procedures described 
 ```
 Raw FASTQ (10x Genomics)
         │
-        ▼ Cell Ranger (v9.0.1; STAR alignment against E. sinensis GCA_013436485.1)
+        ▼ Cell Ranger (v7.2.0; STAR alignment against E. sinensis GCA_013436485.1)
 Gene-Barcode Count Matrices
         │
         ├─► 01_QC_and_harmony_integration.R
@@ -93,7 +93,7 @@ The analysis scripts were developed and tested under Linux (Ubuntu 22.04 LTS / C
   - `openxlsx` (>= 4.2.5)
 
 - **Command-line tools & Python environment**:
-  - `Cell Ranger` (v9.0.1)
+  - `Cell Ranger` (v7.2.0)
   - `DIAMOND` (v2.1.8)
   - `pySCENIC` (v0.12.1)
   - Python (>= 3.9) with `loompy`, `scanpy`, `arboreto`
