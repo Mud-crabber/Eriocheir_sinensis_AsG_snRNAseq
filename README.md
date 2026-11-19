@@ -2,7 +2,7 @@
 
 This repository provides the complete, modular, and reproducible bioinformatic analysis workflow for the snRNA-seq study of the Chinese mitten crab (*Eriocheir sinensis*) accessory sex gland (AsG) across different developmental stages (pre-developmental, early-developmental, and rapid-developmental stages).
 
-The analytical methodology implemented here strictly adheres to the procedures described in Section **2.4–2.7** of the manuscript.
+The analytical methodology implemented here adheres to the procedures described in Section **2.4–2.7** of the manuscript.
 
 ---
 
@@ -158,12 +158,11 @@ R -e "remotes::install_github('cole-trapnell-lab/monocle3', ref = 'v1.4.27')"
 
 ## Data Availability
 
-- Raw sequencing reads (FASTQ) and processed expression matrices have been deposited in the NCBI GEO / SRA / GSA database under accession number `[GSEXXXXXX] / [PRJNAXXXXXX]`.
-- Homology mapping tables (Table S2, Table S3) and full enrichment records (Table S1/S4/S5) are available as supplementary files accompanying the manuscript.
+- The raw snRNA-seq sequencing reads have been deposited in the NCBI Sequence Read Archive (SRA) under BioProject accession number PRJNA1563744. The processed expression matrices are publicly available in Zenodo at https://doi.org/10.5281/zenodo.24372251.
 
 ---
 
 ## Citation
 
 If you use the scripts or resources in this repository, please cite:
-> Yang et al., Single-nucleus transcriptomic profiling reveals cellular dynamics and regulatory networks during accessory sex gland development in the Chinese mitten crab (*Eriocheir sinensis*). (2025/2026, *Under Review*).
+> Yang et al., Single-nucleus transcriptomic analysis reveals candidate regulatory programs underlying accessory sex gland development in the Chinese mitten crab (*Eriocheir sinensis*). (2026/2027, *Under Review*).
