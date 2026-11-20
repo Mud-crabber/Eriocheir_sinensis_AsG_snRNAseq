@@ -84,19 +84,19 @@ The analysis scripts were developed and tested under Linux (Ubuntu 22.04 LTS / C
   - `harmony` (v1.2.3)
   - `DoubletFinder` (v2.0.6)
   - `monocle3` (v1.4.27)
-  - `clusterProfiler` (>= 4.10.0)
+  - `clusterProfiler` (v4.16.0)
   - `CellChat` (v1.6.1)
-  - `mclust` (>= 6.0.0)
-  - `SCopeLoomR` (>= 0.13.0)
-  - `AUCell` (>= 1.24.0)
+  - `mclust` (v6.1.3)
+  - `SCopeLoomR` (v0.13.0)
+  - `AUCell` (v1.30.1)
   - `tidyverse` (`dplyr`, `ggplot2`, `readr`, `tibble`, `tidyr`)
-  - `openxlsx` (>= 4.2.5)
+  - `openxlsx` (v4.2.8)
 
 - **Command-line tools & Python environment**:
   - `Cell Ranger` (v7.2.0)
   - `DIAMOND` (v2.1.8)
   - `pySCENIC` (v0.12.1)
-  - Python (>= 3.9) with `loompy`, `scanpy`, `arboreto`
+  - Python (v3.9) with `loompy`, `scanpy`, `arboreto`
 
 ---
 
